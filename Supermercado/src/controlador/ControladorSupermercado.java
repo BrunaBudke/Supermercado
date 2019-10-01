@@ -84,9 +84,12 @@ man.dispose();//fechar a tela da manutenção
 public static void atualizarTabela(JTable tabela) {
         DefaultTableModel modelo = new DefaultTableModel();
         //definindo o cabeçalho da tabela
-        modelo.addColumn("Codigo");
-        modelo.addColumn("Nome");
-        modelo.addColumn("Descrição");
+        modelo.addColumn("Código");
+        modelo.addColumn("Nome fantasia");
+        modelo.addColumn("Razão social");
+        modelo.addColumn("Fundação");
+        modelo.addColumn("Número de funcionários");
+        modelo.addColumn("Valor na bolsa");
         List<Supermercado> resultados = DaoSupermercado.consultar();
         for (Supermercado objeto : resultados) {
             Vector linha = new Vector();

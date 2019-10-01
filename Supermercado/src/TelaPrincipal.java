@@ -37,8 +37,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(153, 0, 153));
         jLabel1.setText("Tela Principal");
 
+        jButton1.setBackground(new java.awt.Color(153, 0, 153));
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(204, 204, 255));
         jButton1.setText("Manutenção");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -46,6 +50,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(153, 0, 153));
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(204, 204, 255));
         jButton2.setText("Listagem");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,26 +65,26 @@ public class TelaPrincipal extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(112, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(113, 113, 113))
             .addGroup(layout.createSequentialGroup()
-                .addGap(106, 106, 106)
+                .addGap(70, 70, 70)
                 .addComponent(jButton1)
-                .addGap(43, 43, 43)
+                .addGap(58, 58, 58)
                 .addComponent(jButton2)
-                .addContainerGap(68, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(22, 22, 22)
                 .addComponent(jLabel1)
-                .addGap(62, 62, 62)
+                .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2))
-                .addContainerGap(34, Short.MAX_VALUE))
+                .addContainerGap(71, Short.MAX_VALUE))
         );
 
         pack();

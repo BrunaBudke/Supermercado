@@ -69,20 +69,48 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(153, 0, 153));
         jLabel1.setText("Manutenção Supermercado");
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(153, 0, 153));
         jLabel2.setText("Código");
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(153, 0, 153));
         jLabel3.setText("Nome fantasia");
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(153, 0, 153));
         jLabel4.setText("Razão social");
 
+        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(153, 0, 153));
         jLabel5.setText("Fundação");
 
+        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(153, 0, 153));
         jLabel6.setText("Número de funcionários");
 
+        jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(153, 0, 153));
         jLabel7.setText("Valor na bolsa");
 
+        jtfCodigo.setBackground(new java.awt.Color(204, 204, 255));
+
+        jtfNomefantasia.setBackground(new java.awt.Color(204, 204, 255));
+
+        jtfRazaosocial.setBackground(new java.awt.Color(204, 204, 255));
+
+        jtfFundacao.setBackground(new java.awt.Color(204, 204, 255));
+
+        jtfNrfuncionarios.setBackground(new java.awt.Color(204, 204, 255));
+
+        jtfValnabolsa.setBackground(new java.awt.Color(204, 204, 255));
+
+        btnAdicionar.setBackground(new java.awt.Color(153, 0, 153));
+        btnAdicionar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnAdicionar.setForeground(new java.awt.Color(204, 204, 255));
         btnAdicionar.setText("Adicionar");
         btnAdicionar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,6 +118,9 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
             }
         });
 
+        btnAlterar.setBackground(new java.awt.Color(153, 0, 153));
+        btnAlterar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnAlterar.setForeground(new java.awt.Color(204, 204, 255));
         btnAlterar.setText("Alterar");
         btnAlterar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,6 +128,9 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
             }
         });
 
+        btnExcluir.setBackground(new java.awt.Color(153, 0, 153));
+        btnExcluir.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnExcluir.setForeground(new java.awt.Color(204, 204, 255));
         btnExcluir.setText("Excluir");
         btnExcluir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -104,6 +138,9 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
             }
         });
 
+        btnCancelar.setBackground(new java.awt.Color(153, 0, 153));
+        btnCancelar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnCancelar.setForeground(new java.awt.Color(204, 204, 255));
         btnCancelar.setText("Cancelar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -111,7 +148,7 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 45, Short.MAX_VALUE)
+                .addGap(0, 48, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(85, 85, 85))
             .addGroup(layout.createSequentialGroup()
@@ -121,23 +158,24 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel3)
                             .addComponent(jLabel4)
-                            .addComponent(jLabel5)
+                            .addComponent(jLabel5))
+                        .addContainerGap(350, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel6)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jtfNrfuncionarios, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addGap(62, 62, 62)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jtfNomefantasia, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jtfCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jtfRazaosocial, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jtfFundacao, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(jtfNrfuncionarios))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel7)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(jLabel2)
+                                    .addGap(62, 62, 62)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jtfNomefantasia, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jtfCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jtfRazaosocial, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jtfFundacao, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                         .addGap(0, 0, Short.MAX_VALUE))))
             .addGroup(layout.createSequentialGroup()
                 .addGap(39, 39, 39)
@@ -188,7 +226,7 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
                     .addComponent(btnAlterar)
                     .addComponent(btnExcluir)
                     .addComponent(btnCancelar))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(35, Short.MAX_VALUE))
         );
 
         pack();

@@ -39,6 +39,7 @@ public class ListagemSupermercado extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(153, 0, 153));
         jLabel1.setText("Listagem Supermercado");
 
         tabela.setModel(new javax.swing.table.DefaultTableModel(
@@ -59,6 +60,9 @@ public class ListagemSupermercado extends javax.swing.JDialog {
         });
         jScrollPane1.setViewportView(tabela);
 
+        btnNovo.setBackground(new java.awt.Color(153, 0, 153));
+        btnNovo.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        btnNovo.setForeground(new java.awt.Color(204, 204, 255));
         btnNovo.setText("Novo");
         btnNovo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

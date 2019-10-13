@@ -69,31 +69,24 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(153, 0, 153));
         jLabel1.setText("Manutenção Supermercado");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(153, 0, 153));
         jLabel2.setText("Código");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(153, 0, 153));
         jLabel3.setText("Nome fantasia");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(153, 0, 153));
         jLabel4.setText("Razão social");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(153, 0, 153));
         jLabel5.setText("Fundação");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(153, 0, 153));
         jLabel6.setText("Número de funcionários");
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(153, 0, 153));
         jLabel7.setText("Valor na bolsa");
 
         jtfCodigo.setBackground(new java.awt.Color(204, 204, 255));
@@ -108,7 +101,7 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
 
         jtfValnabolsa.setBackground(new java.awt.Color(204, 204, 255));
 
-        btnAdicionar.setBackground(new java.awt.Color(153, 0, 153));
+        btnAdicionar.setBackground(new java.awt.Color(51, 51, 51));
         btnAdicionar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnAdicionar.setForeground(new java.awt.Color(204, 204, 255));
         btnAdicionar.setText("Adicionar");
@@ -118,7 +111,7 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
             }
         });
 
-        btnAlterar.setBackground(new java.awt.Color(153, 0, 153));
+        btnAlterar.setBackground(new java.awt.Color(51, 51, 51));
         btnAlterar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnAlterar.setForeground(new java.awt.Color(204, 204, 255));
         btnAlterar.setText("Alterar");
@@ -128,7 +121,7 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
             }
         });
 
-        btnExcluir.setBackground(new java.awt.Color(153, 0, 153));
+        btnExcluir.setBackground(new java.awt.Color(51, 51, 51));
         btnExcluir.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnExcluir.setForeground(new java.awt.Color(204, 204, 255));
         btnExcluir.setText("Excluir");
@@ -138,7 +131,7 @@ public class ManutencaoSupermercado extends javax.swing.JDialog {
             }
         });
 
-        btnCancelar.setBackground(new java.awt.Color(153, 0, 153));
+        btnCancelar.setBackground(new java.awt.Color(51, 51, 51));
         btnCancelar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnCancelar.setForeground(new java.awt.Color(204, 204, 255));
         btnCancelar.setText("Cancelar");
